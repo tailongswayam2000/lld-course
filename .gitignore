@@ -1,0 +1,14 @@
+# Build files
+*.o
+*.out
+*.exe
+*.dSYM/
+build/
+bin/
+
+# VS Code / Environment
+.vscode/
+.cph/
+
+# Input/Output files if they shouldn't be tracked
+cppio/output.txt

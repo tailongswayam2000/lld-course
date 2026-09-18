@@ -1,0 +1,25 @@
+BasedOnStyle: Google # or LLVM or other preferred base style
+IndentWidth: 4 # Set indentation to 4 spaces or use TabWidth for tabs
+UseTab: Never # Use spaces instead of tabs
+ColumnLimit: 150 # Disable line length limit for better control of line wrapping
+
+# Force conditions in `if` statements to split into separate lines when too long
+AllowShortIfStatementsOnASingleLine: false
+PenaltyExcessCharacter: 1000000 # Force more splitting for long conditions
+
+# Ensure braces start on the same line for functions, loops, and conditionals
+BraceWrapping:
+  AfterFunction: false # Opening braces for functions start on the same line
+  AfterControlStatement: false # Opening braces for if, for, while on same line
+  AfterClass: false
+  AfterNamespace: false
+  AfterStruct: false
+  AfterEnum: false
+  BeforeCatch: false
+  BeforeElse: false
+  IndentBraces: false
+
+# Example for condition splitting when lines get too long
+BreakBeforeBinaryOperators: false # Keep binary operators on the same line
+BreakBeforeBraces: Attach # Braces attach to the end of the line
+BreakConstructorInitializers: AfterColon # Break after colon in constructors
