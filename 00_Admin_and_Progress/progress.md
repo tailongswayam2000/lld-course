@@ -3,15 +3,18 @@
 Track your completion here.
 
 ## 01_Important
+- [ ] **00_CPP_Language_Refresher**
+  - [ ] 0.1 OOPs Basics (Classes, Encapsulation, Abstraction)
+  - [ ] 0.2 Pointers & Memory (Raw vs Smart)
+  - [ ] 0.3 Templates & Generics
+  - [ ] 0.4 Polymorphism & Interfaces
 - [ ] **01_Foundations**
   - [ ] 1.1 Clean Code (KISS, DRY, YAGNI)
   - [ ] 1.2 Cohesion and Coupling
   - [ ] 1.3 Error Handling & Validation
-- [ ] **02_Modern_CPP**
-  - [ ] 2.1 Polymorphism & Interfaces
-  - [ ] 2.2 Memory Ownership & Smart Pointers
-  - [ ] 2.3 Rule of 3/5/0
-  - [ ] 2.4 Composition vs Inheritance
+- [ ] **02_Modern_CPP_Design**
+  - [ ] 2.1 Rule of 3/5/0
+  - [ ] 2.2 Composition vs Inheritance
 - [ ] **03_Essential_Patterns**
   - [ ] 3.1 Strategy
   - [ ] 3.2 State
