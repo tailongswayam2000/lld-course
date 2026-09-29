@@ -7,22 +7,19 @@ using namespace std;
 class BankAccount {
     // 1. Add private variables (balance, accountNumber)
    private:
-    float balance;
     string accountNumber;
+    float balance;
 
    public:
     // 2. Add public constructor
-    BankAccount(string accNo, float initialBalance) {
-        this->accountNumber = accNo;
-        this->balance = initialBalance;
-    }
+    BankAccount(string accNo, float initialBalance) : accountNumber(move(accNo)), balance(initialBalance) {}
     // 3. Add public methods: deposit, withdraw, getBalance
-    void deposit(int amount) {
+    void deposit(float amount) {
         if (amount > 0)
             this->balance += amount;
     }
 
-    bool withdraw(int amount) {
+    bool withdraw(float amount) {
         if (amount <= this->balance && amount > 0) {
             this->balance -= amount;
             return true;
@@ -30,7 +27,7 @@ class BankAccount {
         return false;
     }
 
-    float getBalance() { return this->balance; }
+    float getBalance() const { return this->balance; }
 };
 
 // --- DO NOT MODIFY BELOW THIS LINE ---

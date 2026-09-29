@@ -4,7 +4,7 @@ Track your completion here.
 
 ## 01_Important
 - [ ] **00_CPP_Language_Refresher**
-  - [ ] 0.1 OOPs Basics (Classes, Encapsulation, Abstraction)
+  - [x] 0.1 OOPs Basics (Classes, Encapsulation, Abstraction)
   - [ ] 0.2 Pointers & Memory (Raw vs Smart)
   - [ ] 0.3 Templates & Generics
   - [ ] 0.4 Polymorphism & Interfaces
